@@ -8,7 +8,7 @@ pathlib.PosixPath = pathlib.WindowsPath
 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
-cap = cv2.VideoCapture('roi_fast.mp4')
+cap = cv2.VideoCapture('suspicious_activity.mp4')
 
  # For saving the output video to local folder
 # fourcc = cv2.VideoWriter_fourcc(*'XVID')
